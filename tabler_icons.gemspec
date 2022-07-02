@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.authors = ["greyoxide"]
   spec.homepage = 'https://github.com/Greyoxide/tabler_icons'
 
-  spec.summary = "Bring the awesome tabler icons into your rails project"
-  spec.description = "TODO: Write a longer description or delete this line."
+  spec.summary = "Tabler's tabler icons"
+  spec.description = "This package destributes Tabler icons as a gem."
   spec.license = "MIT"
   spec.required_ruby_version = ">= 3.0.0"
 
