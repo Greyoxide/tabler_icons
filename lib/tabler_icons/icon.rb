@@ -33,10 +33,10 @@ module TablerIcons
     end
 
     def set_dimensions
-      # @body.set_attribute('height', '')
-      # @body.set_attribute('width', '')
-      # @body.set_attribute('viewBox', viewbox)
-      # @body.set_attribute('preserveAspectRatio', "xMidYMid meet")
+      @body.set_attribute('height', @options.fetch(:size))
+      @body.set_attribute('width', @options.fetch(:size))
+      @body.set_attribute('viewBox', viewbox)
+      @body.set_attribute('preserveAspectRatio', "xMidYMid meet")
     end
 
     def viewbox
