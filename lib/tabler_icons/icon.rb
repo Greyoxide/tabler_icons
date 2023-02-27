@@ -72,7 +72,7 @@ module TablerIcons
     end
 
     def get_icon(icon)
-      File.read(File.join(TablerIcons.root, 'src/icons', "#{icon}.svg"))
+      File.read(File.join(TablerIcons.root, 'icons', "#{icon}.svg"))
     end
   end
 end

@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require_relative '../lib/tabler_icons/download_icons'
+
+TablerIcons::DownloadIcons.call(ARGV[0] == '--force')
